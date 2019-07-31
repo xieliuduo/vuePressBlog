@@ -1,9 +1,9 @@
 const utils = require('./utils')
 
 module.exports = {
-  title: 'awesome-bookmarks',
-  description: '个人收藏夹 beta',
-  base: '/awesome-bookmarks/',
+  title: '谢刘铎的博客',
+  description: '记录心得，记录成长',
+  base: '',
   head: [
     [
       'link',
@@ -32,7 +32,7 @@ module.exports = {
         link: '/article/'
       },
       // { text: '工具', link: 'https://google.com' },
-       {
+      {
         text: '面试',
         link: '/interview/'
       },
@@ -43,7 +43,7 @@ module.exports = {
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
-    repo: 'xieliuduo',
+    repo: 'xieliuduo/vuePressBlog',
     editLinks: true,
     docsDir: 'docs',
     editLinkText: '在 GitHub 上编辑此页',
