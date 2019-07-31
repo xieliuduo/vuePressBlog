@@ -26,24 +26,24 @@ module.exports = {
       {
         text: '网站',
         link: '/website/'
-      }
-      // {
-      //   text: '文章',
-      //   link: '/article/'
-      // },
+      },
+      {
+        text: '文章',
+        link: '/article/'
+      },
       // { text: '工具', link: 'https://google.com' },
-      // {
-      //   text: '面试',
-      //   link: '/interview/'
-      // },
-      // {
-      //   text: 'Blog',
-      //   link: '/blog/'
-      // }
+       {
+        text: '面试',
+        link: '/interview/'
+      },
+      {
+        text: 'Blog',
+        link: '/blog/'
+      }
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
-    repo: 'PanJiaChen/awesome-bookmarks',
+    repo: 'xieliuduo',
     editLinks: true,
     docsDir: 'docs',
     editLinkText: '在 GitHub 上编辑此页',
