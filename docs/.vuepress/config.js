@@ -1,9 +1,9 @@
 const utils = require('./utils')
 
 module.exports = {
-  title: '谢刘铎的博客',
-  description: '记录心得，记录成长',
-  base: '',
+  title: 'awesome-bookmarks',
+  description: '个人收藏夹 beta',
+  base: '/',
   head: [
     [
       'link',
@@ -32,7 +32,7 @@ module.exports = {
         link: '/article/'
       },
       // { text: '工具', link: 'https://google.com' },
-      {
+       {
         text: '面试',
         link: '/interview/'
       },

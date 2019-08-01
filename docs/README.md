@@ -15,7 +15,7 @@ footer: MIT Licensed | Copyright © 2018-present XieLiuDuo
        padding-right:0;
 
 }
-.home .features{
+ .home .features{
     max-width: 980px;
     margin:auto;
 } 
