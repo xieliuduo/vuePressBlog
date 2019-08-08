@@ -1,66 +1,66 @@
-const utils = require('./utils')
+const utils = require("./utils");
 
 module.exports = {
-  title: 'awesome-bookmarks',
-  description: '个人收藏夹 beta',
-  base: '/',
+  title: "谢刘铎的博客",
+  description: "记录技术、心得体会",
+  base: "/",
   head: [
     [
-      'link',
+      "link",
       {
-        rel: 'icon',
-        href: '/favicon.ico'
+        rel: "icon",
+        href: "/favicon.ico"
       }
     ]
   ],
   themeConfig: {
     nav: [
       {
-        text: '首页',
-        link: '/'
+        text: "首页",
+        link: "/"
       },
       {
-        text: '库',
-        link: '/repository/'
+        text: "库",
+        link: "/repository/"
       },
       {
-        text: '网站',
-        link: '/website/'
+        text: "网站",
+        link: "/website/"
       },
       {
-        text: '文章',
-        link: '/article/'
+        text: "文章",
+        link: "/article/"
       },
       // { text: '工具', link: 'https://google.com' },
-       {
-        text: '面试',
-        link: '/interview/'
+      {
+        text: "面试",
+        link: "/interview/"
       },
       {
-        text: 'Blog',
-        link: '/blog/'
+        text: "Blog",
+        link: "/blog/"
       }
     ],
     sidebar: utils.inferSiderbars(),
-    lastUpdated: '上次更新',
-    repo: 'xieliuduo/vuePressBlog',
+    lastUpdated: "上次更新",
+    repo: "xieliuduo/vuePressBlog",
     editLinks: true,
-    docsDir: 'docs',
-    editLinkText: '在 GitHub 上编辑此页',
+    docsDir: "docs",
+    editLinkText: "在 GitHub 上编辑此页",
     sidebarDepth: 3
   },
   configureWebpack: {
     resolve: {
       alias: {
-        '@public': './public'
+        "@public": "./public"
       }
     }
   },
-  ga: 'UA-109340118-1',
+  ga: "UA-109340118-1",
   markdown: {
     config: md => {
       // use more markdown-it plugins!
-      md.use(require('markdown-it-include'))
+      md.use(require("markdown-it-include"));
     }
   }
-}
+};
