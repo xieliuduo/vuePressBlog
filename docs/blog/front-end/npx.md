@@ -12,7 +12,7 @@ npx 第一个好处就是方便的调用了项目内部安装的模块。比如�
 npm install -D mocha
 ```
 
-般来说，调用 Mocha ，只能在项目脚本和 package.json 的 scripts 字段里面， 如果想在命令行下调用，必须像下面这样。
+一般来说，调用 Mocha ，只能在项目脚本和 package.json 的 scripts 字段里面， 如果想在命令行下调用，必须像下面这样。
 
 ```shell
 # 项目的根目录下执行

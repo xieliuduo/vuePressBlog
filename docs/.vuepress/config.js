@@ -20,6 +20,10 @@ module.exports = {
         link: "/"
       },
       {
+        text: "Blog",
+        link: "/blog/"
+      },
+      {
         text: "库",
         link: "/repository/"
       },
@@ -35,10 +39,6 @@ module.exports = {
       {
         text: "面试",
         link: "/interview/"
-      },
-      {
-        text: "Blog",
-        link: "/blog/"
       }
     ],
     sidebar: utils.inferSiderbars(),
