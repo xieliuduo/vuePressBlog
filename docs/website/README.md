@@ -137,6 +137,8 @@ sidebar: auto
 ## 实用
 
 [typeform](https://admin.typeform.com/signup) 一个国外的在线调查问卷网站
+[Kindle 电子书分享网](https://book.51read.site/)一个免费开源下载电子书的网站
+实用
 
 ## Talk
 
